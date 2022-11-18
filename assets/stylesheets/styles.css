@@ -21,10 +21,19 @@ html {
     color: var(--white);
 }
 
+body {
+    text-align: center;
+     width: 100vw;
+     height: 100vh;
+     margin: 0;
+     background: #285430;
+}
+
 h1, h2, h3, h4, h5, h6 {
-    font-family: highgate,sans-serif;
+    font-family: filson-soft,sans-serif;
     font-weight: 700;
     font-style: normal;
+    color: #E5D9B6;
 }
 
 h1 {
@@ -36,6 +45,7 @@ p {
     font-weight: 400;
     font-style: normal;
     text-align: left;
+    color: #E5D9B6;
 }
 
 /***        header styling      ***/
@@ -114,7 +124,7 @@ p {
   
 #monitorscreen {
     position: relative;
-    background-color: #777;
+    background-color: #A4BE7B;
     background-size: cover; 
     background-position: top center;
     height: 0; 
@@ -151,16 +161,6 @@ p {
   }
 
 /***     dvd icons styling      ***/
-
-body {
-    text-align: center;
-  width: 100vw;
-  height: 100vh;
-  margin: 0;
-  background: #45484d;
-  background: -webkit-radial-gradient(center, ellipse cover, #45484d 0%, #000000 100%);
-  background: radial-gradient(ellipse at center, #45484d 0%, #000000 100%);
-}
 
 #link {
   position: absolute;
