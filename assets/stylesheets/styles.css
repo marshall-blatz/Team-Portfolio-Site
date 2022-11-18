@@ -17,13 +17,72 @@ html {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Jost', sans-serif;
+    font-family: multi-display, sans-serif;
     color: var(--white);
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: highgate,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+p {
+    font-family: bilo, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+}
+
+/***        header styling      ***/
+
+#header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-text {
+    text-align: center;
+}
+
+/***        intro styling       ***/
+
+#about-us {
+    min-height: 100vh;
+}
+
+.about-us-title {
+    padding-top: 50px;
+}
+
+.about-us-sections {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.ab-us-sec {
+    position: relative;
+    width: 300px;
+    margin: 30px 0;
+}
+
+.ab-pfp {
+    width:100px;
+    height: 120px;
+}
+
+
 /***        tv screen styling       ***/
   
-  #container {
+  #tv-container {
     max-width: 850px;
     margin: auto;
   }
@@ -107,8 +166,8 @@ body {
   position: absolute;
   background-size: 100% auto;
   background-repeat: no-repeat;
-  width: 200px;
-  height: 230px;
+  width: 180px;
+  height: 225px;
   cursor: pointer;
 }
 
@@ -122,6 +181,7 @@ body {
 }
 
 .logo {
+    padding-top: 30px;
     width: 20%;
     height: auto;
     margin: 0 auto;

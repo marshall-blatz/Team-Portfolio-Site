@@ -20,7 +20,7 @@
     yMax = win.offsetHeight - boxTop - boxHeight,
     request = null,
     direction = 'se',
-    speed = 2,
+    speed = 1.5,
     timeout = null;
 
     init();
@@ -130,7 +130,7 @@
         }
         
         setStyle(box, {color: colors[color]});
-        setStyle(pfp, {filter : "drop-shadow(8px 0 0 "+colors[color]+") drop-shadow(0 8px 0 "+colors[color]+") drop-shadow(-8px 0 0 "+colors[color]+") drop-shadow(0 -8px 0 "+colors[color]+")"})
+        setStyle(pfp, {filter : "drop-shadow(5px 0 0 "+colors[color]+") drop-shadow(0 5px 0 "+colors[color]+") drop-shadow(-5px 0 0 "+colors[color]+") drop-shadow(0 -5px 0 "+colors[color]+")"})
 
         currentColor = color;
     }
