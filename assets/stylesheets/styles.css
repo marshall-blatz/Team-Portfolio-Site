@@ -11,6 +11,7 @@
 
 html {
     scroll-behavior: smooth;
+    background: #472D2D;
 }
 
 * {
@@ -26,7 +27,6 @@ body {
      width: 100vw;
      height: 100vh;
      margin: 0;
-     background: #285430;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -124,7 +124,7 @@ p {
   
 #monitorscreen {
     position: relative;
-    background-color: #A4BE7B;
+    background-color: #553939;
     background-size: cover; 
     background-position: top center;
     height: 0; 
@@ -186,4 +186,11 @@ p {
     height: auto;
     margin: 0 auto;
 
+}
+
+@media screen and (max-width: 600px){
+    #link {
+        width: 100px;
+        height: 130px;
+      }
 }
