@@ -40,15 +40,19 @@ p {
 
 .back-btn {
     margin: 20px;
+    position: absolute;
 }
 
 .back-btn a {
     text-decoration: none;
+    
 }
 
 .row {
     display: flex;
     flex-direction: row;
+    margin: auto;
+    height: 100vh;
 }
 
 .side-column {
@@ -74,11 +78,6 @@ p {
   .site-link {
     margin: 10px 10px 10px 0;
     text-decoration: none;
-  }
-
-  .row {
-    margin: auto;
-    height: 100vh;
   }
 
   .comments {
