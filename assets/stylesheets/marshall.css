@@ -38,6 +38,14 @@ p {
     color: var(--off-white);
 }
 
+.back-btn {
+    margin: 20px;
+}
+
+.back-btn a {
+    text-decoration: none;
+}
+
 .row {
     display: flex;
     flex-direction: row;
@@ -49,12 +57,14 @@ p {
     flex-direction: column;
     justify-content: center;
     width: 40%;
+    padding: 20px;
+    margin: auto;
 }
 
 .vl {
     border-left: 1px solid var(--off-white);
     height: 70vh;
-    margin: auto;
+    margin: auto
   }
 
   .about-me {
@@ -77,4 +87,35 @@ p {
     border: 2px solid #EEF2E6;
     border-radius: 15px;
     padding: 10px;
+    margin-bottom: 20px;
   }
+
+  .pfp {
+    border-radius: 50%;
+    max-width: 500px;
+  }
+
+  @media screen and (max-width: 900px){
+    .row {
+        flex-direction: column;
+    }
+    
+    .vl {
+        display: none;
+    }
+
+    .side-column {
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width: 560px){
+    h1 {
+        font-size: 3rem;
+    }
+
+    .pfp{
+        width: 400px;
+        margin: auto;
+    }
+}
