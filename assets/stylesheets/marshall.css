@@ -38,10 +38,40 @@ p {
     color: var(--off-white);
 }
 
-.centered-text {
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.side-column {
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
+    width: 40%;
 }
+
+.vl {
+    border-left: 1px solid var(--off-white);
+    height: 70vh;
+    margin: auto;
+  }
+
+  .about-me {
+    margin: auto 20px;
+  }
+
+  .site-link {
+    margin: 10px 10px 10px 0;
+    text-decoration: none;
+  }
+
+  .row {
+    margin: auto;
+    height: 100vh;
+  }
+
+  .comments {
+    overflow: scroll;
+    max-height: 250px;
+  }
