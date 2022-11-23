@@ -1,0 +1,47 @@
+:root {
+    --white: #edf0f1;
+    --black: #1b1919;
+    --dark-green: #1C6758;
+    --green: #3D8361;
+    --beige: #D6CDA4;
+    --off-white: #EEF2E6;
+  }
+
+html {
+    scroll-behavior: smooth;
+    background: var(--dark-green);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: var(--off-white);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: filson-soft,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--off-white);
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+p {
+    font-family: bilo, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    color: var(--off-white);
+}
+
+.centered-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
