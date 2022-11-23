@@ -58,6 +58,7 @@ p {
 
 .header-text {
     text-align: center;
+    margin: 5%;
 }
 
 /***        intro styling       ***/
@@ -189,7 +190,7 @@ p {
 
 @media screen and (max-width: 600px){
     #link {
-        width: 100px;
-        height: 130px;
+        width: 80px;
+        height: 100px;
       }
 }
