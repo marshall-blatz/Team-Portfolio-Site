@@ -1,7 +1,4 @@
 # Team-Portfolio-Site
 This is the portfolio site for our Senior Design team
 
-Technologies we could use:
-- Gatsby.js
-- CommentBox
-- Node.js
+This repository is currently being hosted at: https://clownfish-app-4u6ql.ondigitalocean.app/ 
