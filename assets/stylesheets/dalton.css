@@ -40,6 +40,11 @@ p {
     text-align: center;
 }
 
-.site_link {
+.link {
     text-align: center;
+    width: 100%;
+}
+
+.site-link {
+    margin: auto;
 }
