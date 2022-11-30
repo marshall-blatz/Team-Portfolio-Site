@@ -48,3 +48,8 @@ p {
 .site-link {
     margin: auto;
 }
+
+.pfp {
+    width: 25%;
+    height: auto;
+}
