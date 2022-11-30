@@ -1,0 +1,42 @@
+:root {
+    --white: #edf0f1;
+    --black: #1b1919;
+    --dark-green: #0a2502;
+    --red: #c70808;
+    --beige: #f7e282;
+    --off-white: #EEF2E6;
+  }
+
+html {
+    scroll-behavior: smooth;
+    background: var(--dark-green);
+}
+
+.back-btn a {
+    text-decoration: none;
+    
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: filson-soft,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--beige);
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-family:Gill Sans, sans-serif;
+    color: var(--off-white);
+}
+
+.gen_info {
+    text-align: center;
+}
+
+.about_me {
+    text-align: center;
+}
+
