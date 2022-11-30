@@ -1,0 +1,33 @@
+:root {
+    --white: #edf0f1;
+    --black: #1b1919;
+    --dark-gray: #323232;
+    --red: #c70808;
+    --beige: #D6CDA4;
+    --off-white: #EEF2E6;
+  }
+
+html {
+    scroll-behavior: smooth;
+    background: var(--dark-gray);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: filson-soft,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--beige);
+}
+
+p {
+    font-family:Gill Sans, sans-serif;
+    color: var(--off-white);
+}
+
+.general_information {
+    text-align: center;
+}
+
+.about_me {
+    text-align: center;
+}
