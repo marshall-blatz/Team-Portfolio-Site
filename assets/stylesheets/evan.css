@@ -13,7 +13,7 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: filson-soft,sans-serif;
+    font-family: Gill Sans, sans-serif;
     font-weight: 700;
     font-style: normal;
     color: var(--beige);
@@ -25,9 +25,80 @@ p {
 }
 
 .general_information {
+    position: relative;
+    top: 20%;
+    left: 5%;
     text-align: center;
+    margin: auto;
+    width: auto;
 }
 
 .about_me {
+    position: relative;
+    top: 20%;
+    right: -2%;
+    max-width: 500px;
     text-align: center;
+    margin: auto;
+    width: auto;
+}
+.header_name {
+    text-align: center;
+}
+
+.back_button {
+    text-decoration: none;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.pfp {
+    position: relative;
+    left: 6%;    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+.experience_and_projects {
+    text-align: center;
+}
+
+@media screen and (max-width: 1450px){
+    .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: auto;
+    }
+    .pfp {
+        position: relative;
+        left: 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+    }
+    .general_information {
+        position: relative;
+        top: 20%;
+        left: 0%;
+        text-align: center;
+        margin: auto;
+        width: auto;
+    }
+    .about_me {
+        position: relative;
+        top: 20%;
+        right: 0%;
+        max-width: 500px;
+        text-align: center;
+        margin: auto;
+        width: auto;
+    }
 }
